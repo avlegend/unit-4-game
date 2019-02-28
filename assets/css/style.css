@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://travelplaces.co.uk/wp-content/uploads/2017/10/Mt.Fuji_.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.jumbotron{
+    height: auto;
+
+}
+
+.randomResult {
+    
+}
+
+.gemPics {
+    position: relative;
+   
+}
+
+#gem1,
+#gem2,
+#gem3,
+#gem4 {
+    height: 100px;
+}

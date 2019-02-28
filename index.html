@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>unit-4-game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--The header will go here-->
+    <div class=container>
+
+
+        <div class="jumbotron">
+            <div class="row">
+                <h1>Crystals Collector!</h1>
+                <p>Click on a crystal and try to match the random number.</p>
+            </div>
+        </div>
+
+
+        <!--The random results will go here-->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="randomResult">
+                        <h2>Random Number: <span id="random-number"></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--the score of wins and loss will go here-->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="winsAndLoss">
+                        <h2>Wins:<span id="wins"></span></h2>
+                        <h2>loss: <span id="loss"></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--The buttons of the gems will go here-->
+        <div id="gemPics">
+            <img class="gemClick" id='gem1' src='assets/images/5a8cffecaee91400019463c5_Asset 1@2x.png' data-value=""
+                alt="image1" />
+            <img class="gemClick" id='gem2' src='assets/images/5a8d073baee9140001946903_Asset 6@2x.png' data-value=""
+                alt="image1" />
+            <img class="gemClick" id='gem3' src='assets/images/green.png' data-value="" alt="image1" />
+            <img class="gemClick" id='gem4' src='assets/images/images.jpeg' data-value="" alt="image1" />
+        </div>
+
+        <!-- the total score result will go here-->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="userTotal">
+                        <h2>Your total score is: <span id="total-score"></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class></div>
+                </div>
+            </div>
+        </div> -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/Game.js"></script>
+    </div>
+</body>
+
+</html>
